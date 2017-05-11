@@ -20,16 +20,7 @@
         })();
 
 		
-        $('.bxslider').bxSlider({
-			mode: 'horizontal',
-			moveSlides: 1,
-			slideMargin: 40,
-			infiniteLoop: true,
-			slideWidth: 1583,
-			minSlides: 1,
-			maxSlides: 1,
-			speed: 800,
-		});
+
 /*Wow Js Function */
         new WOW().init();
 /* Google Nexus Menu Function*/        
@@ -63,12 +54,14 @@
         {
             jQuery(".navbar-default").addClass("active");
             jQuery(".gn-menu-main").addClass("active");
+            jQuery(".scrolltop").addClass("active");
              
         }
             else
         {
             jQuery(".navbar-default").removeClass("active");
             jQuery(".gn-menu-main").removeClass("active");
+            jQuery(".scrolltop").removeClass("active");
        
            
         }  

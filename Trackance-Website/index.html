@@ -22,7 +22,6 @@
     <link rel="stylesheet" type="text/css" href="css/pageloader_demo.css" />
     <link rel="stylesheet" type="text/css" href="css/pageloader_component.css" />
     <link rel="stylesheet" type="text/css" href="css/animate.css" />
-    <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
     <script src="js/pageloader_snap.svg-min.js"></script>
     
     <!--favicon-->
@@ -573,9 +572,19 @@ Mobile-->
                     <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
-                         <ul class="bxslider">
-                  <li>
-                      <div class="row">
+                            <div id="testimonialslider" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#testimonialslider" data-slide-to="0" class="active"></li>
+    <li data-target="#testimonialslider" data-slide-to="1"></li>
+    <li data-target="#testimonialslider" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+     <div class="container">
+          <div class="row">
                         <div class="col-sm-3">  
                             <img src="img/dummyprocile.jpg" class="img img-responsive img-circle testimonialprofilepic" />
                           </div>
@@ -583,11 +592,11 @@ Mobile-->
                           <p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise with competitive technologies ac laoreet turpis augue a justo.  </p>
                           </div>
                       </div>
-                   
-                    
-                    </li>
-                <li>
-                      <div class="row">
+        </div>
+    </div>
+    <div class="item">
+     <div class="container">
+          <div class="row">
                         <div class="col-sm-3">  
                             <img src="img/dummyprocile.jpg" class="img img-responsive img-circle testimonialprofilepic" />
                           </div>
@@ -595,31 +604,21 @@ Mobile-->
                           <p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise with competitive technologies ac laoreet turpis augue a justo.  </p>
                           </div>
                       </div>
-                   
-                    
-                    </li>
-                   <li>
-                      <div class="row">
-                        <div class="col-sm-3">  
-                            <img src="img/dummyprocile.jpg" class="img img-responsive img-circle testimonialprofilepic" />
-                          </div>
-                        <div class="col-sm-9">
-                          <p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise with competitive technologies ac laoreet turpis augue a justo.  </p>
-                          </div>
-                      </div>
-                   
-                    
-                    </li>
-              
-                </ul>
-                 
+        </div>
+    </div>
+
+  </div>
+
+
+</div>
+
                         </div>
                         </div>
                     </div>
                   
                 </div>
                 
-                <a href="#top" class="">scrolltop</a>
+                <a href="#top" class="scrolltop"><i class="fa fa-angle-up"></i></a>
              </section>
    </div><!--page 2 div end-->     
        
@@ -639,7 +638,6 @@ Mobile-->
     <script src="js/pageloader_svgLoader.js"></script>
     <script src="jpr_responsivemenu/js/gnmenu.js"></script>
     <script src="js/wow.min.js"></script>
-    <script src="js/jquery.bxslider.min.js"></script>
     <script src="js/custom.js"></script>
 <!--    <script src="js/SmoothScroll.js"></script>-->
     <!--Svg Page Loader Js-->
