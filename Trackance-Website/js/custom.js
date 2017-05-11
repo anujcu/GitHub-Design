@@ -43,25 +43,25 @@
     });
 
      
-                   
-          
-             
+           
   
          
         /*HeaderCSS*/
              jQuery(window).scroll(function(){
         if (jQuery(".navbar-default").offset().top > 300)
         {
-            jQuery(".navbar-default").addClass("active");
+//            jQuery(".navbar-default").addClass("active");
             jQuery(".gn-menu-main").addClass("active");
             jQuery(".scrolltop").addClass("active");
+            jQuery(".navbar-default").addClass("down");
              
         }
             else
         {
-            jQuery(".navbar-default").removeClass("active");
+//            jQuery(".navbar-default").removeClass("active");
             jQuery(".gn-menu-main").removeClass("active");
             jQuery(".scrolltop").removeClass("active");
+            jQuery(".navbar-default").removeClass("down");
        
            
         }  

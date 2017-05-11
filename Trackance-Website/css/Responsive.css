@@ -1,6 +1,8 @@
 /*Custom Responsive css Edited by Anuj -8595232838*/
 @media(max-width:768px)
 {
+    .callno
+    {display: block;padding: 5px 0px;}
     .gn-menu-main {
 display: block;
 }
