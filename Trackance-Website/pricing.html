@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Trackance</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="jpr_responsivemenu/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="jpr_responsivemenu/css/component.css" />
+    <script src="jpr_responsivemenu/js/modernizr.custom.js"></script>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="fonts/fontawesome/css/font-awesome.css" rel="stylesheet">
+    <!-- DesignerAnuj8595232838 Theme CSS -->
+    <link href="css/trakance.css" rel="stylesheet">
+    <link href="css/Responsive.css" rel="stylesheet">
+    <!--page loader-->
+    <link rel="stylesheet" type="text/css" href="css/pageloader_demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/pageloader_component.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <script src="js/pageloader_snap.svg-min.js"></script>
+
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="32x32.png" sizes="32x32">
+    <link rel="shortcut icon" href="48x48.ico">
+    <link rel="shortcut icon" href="32x32.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="76x76.png">
+    <link rel="icon" type="image/png" href="96x96.png" sizes="96x96">
+    <link rel="apple-touch-icon" sizes="114x114" href="114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="152x152.png">
+    <link rel="icon" type="image/png" href="160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="196x196.png" sizes="196x196">
+    <meta name="msapplication-TileColor" content="#1fbbd0">
+    <meta name="msapplication-TileImage" content="114x114.png">
+    <!--favicon end-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="top">
+    <div class="mediaquerydetection"></div>
+    <div id="loader" class="pageload-overlay" data-opening="m -5,-5 0,70 90,0 0,-70 z m 5,35 c 0,0 15,20 40,0 25,-20 40,0 40,0 l 0,0 C 80,30 65,10 40,30 15,50 0,30 0,30 z">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 60" preserveAspectRatio="none">
+					<path d="m -5,-5 0,70 90,0 0,-70 z m 5,5 c 0,0 7.9843788,0 40,0 35,0 40,0 40,0 l 0,60 c 0,0 -3.944487,0 -40,0 -30,0 -40,0 -40,0 z"/>
+				</svg>
+    </div>
+    <div id="pagewrap" class="pagewrap">
+        <!-- The new page dummy; this would be dynamically loaded content -->
+        <div class="containerr" id="page-2" style="display:none">
+            <section>
+                <header>
+                    <!--Header for Mobile-->
+                    <ul id="gn-menu" class="gn-menu-main">
+                        <li class="gn-trigger">
+                            <a class="gn-icon gn-icon-menu btntrigger"><span>Menu</span></a>
+                            <nav class="gn-menu-wrapper">
+                                <div class="gn-scroller">
+                                    <ul class="gn-menu">
+                                        <li class="gn-search-item">
+                                            <input placeholder="Search" type="search" class="gn-search">
+                                            <a class="gn-icon gn-icon-search"><span>Search</span></a>
+                                        </li>
+                                        <li><a href="" class="gn-icon gn-icon-cog">Features</a></li>
+                                        <li><a href="" class="gn-icon gn-icon-help">Pricing</a></li>
+                                        <li>
+                                            <a href="javascript:void(0);" class="gn-icon gn-icon-more">More</a>
+                                            <ul class="gn-submenu">
+                                                <li><a href="" class="gn-icon gn-icon-article">Articles</a></li>
+                                                <li><a href="" class="gn-icon gn-icon-article">Images</a></li>
+                                                <li><a href="" class="gn-icon gn-icon-article">Videos</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="" class="gn-icon gn-icon-login">Login</a></li>
+                                    </ul>
+                                </div>
+                                <!-- /gn-scroller -->
+                            </nav>
+                        </li>
+                        <li class="bigdevice">
+                            <a href="" class="navbarlogo nohover">
+
+                                <figure>
+                                    <img src="img/logopng.png" alt="Trackance logo" class="img img-responsive coloredlogo">
+                                    <img src="img/logo_white.png" alt="Trackance logo" class="img img-responsive whitelogo">
+                                </figure>
+
+                            </a>
+                        </li>
+
+
+                    </ul>
+                    <!--Header for Large Devices-->
+
+                    <nav class="navbar navbar-default navbar-fixed-top hidden-xs active">
+                        <div class="container">
+
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                                <a href="" class="navbarlogo nohover">
+
+                                    <figure>
+                                        <img src="img/logopng.png" alt="Trackance logo" class="img img-responsive coloredlogo">
+                                        <img src="img/logo_white.png" alt="Trackance logo" class="img img-responsive whitelogo">
+                                    </figure>
+
+                                </a>
+                            </div>
+                            <div id="navbar" class="navbar-collapse collapse">
+                                <div class="header-top text-right">
+                                    <a href="" class="call">1.866.303.6061</a>
+                                    <a href="">ABOUT</a>
+                                    <a href="">CONTACT</a>
+                                </div>
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class=""><a href="#features">Features</a></li>
+                                    <li><a href="">Pricing</a></li>
+
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#">Another action</a></li>
+                                            <li><a href="#">Something else here</a></li>
+
+                                            <li><a href="#">Separated link</a></li>
+                                            <li><a href="#">One more separated link</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li><a href="" class="loginbtnheader">Login</a></li>
+                                    <li><a href="registration.html" class="getstartedheader">Get Started Free</a></li>
+                                </ul>
+
+                            </div>
+                            <!--/.nav-collapse -->
+                        </div>
+                    </nav>
+                </header>
+
+                <div class="featuresection" style="padding: 60px 0 0;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h1 class="title">Features</h1>
+                                <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div data-wow-delay="0.5s" class=" wow fadeInUp" style="animation-delay: 0.5s; animation-name: fadeInUp; animation-duration: 1.5s; ">
+                                    <div class=" content">
+                                        <div class="row">
+                                            <!-- Pricing -->
+                                            <div class="col-md-3">
+                                                <div class="pricing hover-effect">
+                                                    <div class="pricing-head">
+                                                        <h3>Professional Plan <span>
+					Officia deserunt mollitia </span>
+                                                        </h3>
+                                                        <h4><i class="fa fa-inr"></i>800<i>000</i>
+                                                            <span>
+					Per Month </span>
+                                                        </h4>
+                                                    </div>
+                                                    <ul class="pricing-content list-unstyled">
+                                                        <li>
+                                                            At vero eos
+                                                        </li>
+                                                        <li>
+                                                            No Support
+                                                        </li>
+                                                        <li>
+                                                            Fusce condimentum
+                                                        </li>
+                                                        <li>
+                                                            Ut non libero
+                                                        </li>
+                                                        <li>
+                                                            Consecte adiping elit
+                                                        </li>
+                                                    </ul>
+                                                    <div class="pricing-footer">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna psum olor .
+                                                        </p>
+                                                        <a href="" class="btntheme">Start Free trail <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="pricing hover-effect">
+                                                    <div class="pricing-head">
+                                                        <h3>SMB Plan <span>
+					Officia deserunt mollitia </span>
+                                                        </h3>
+                                                        <h4><i class="fa fa-inr"></i>10<i>000</i>
+                                                            <span>
+					Per Month </span>
+                                                        </h4>
+                                                    </div>
+                                                    <ul class="pricing-content list-unstyled">
+                                                        <li>
+                                                            At vero eos
+                                                        </li>
+                                                        <li>
+                                                            No Support
+                                                        </li>
+                                                        <li>
+                                                            Fusce condimentum
+                                                        </li>
+                                                        <li>
+                                                            Ut non libero
+                                                        </li>
+                                                        <li>
+                                                            Consecte adiping elit
+                                                        </li>
+                                                    </ul>
+                                                    <div class="pricing-footer">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna psum olor .
+                                                        </p>
+                                                        <a href="" class="btntheme">Start Free trail <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="pricing pricing-active hover-effect">
+                                                    <div class="pricing-head pricing-head-active">
+                                                        <h3>Active Plan <span>
+					Officia deserunt mollitia </span>
+                                                        </h3>
+                                                        <h4><i class="fa fa-inr"></i>12<i>000</i>
+                                                            <span>
+					Per Month </span>
+                                                        </h4>
+                                                    </div>
+                                                    <ul class="pricing-content list-unstyled">
+                                                        <li>
+                                                            At vero eos
+                                                        </li>
+                                                        <li>
+                                                            No Support
+                                                        </li>
+                                                        <li>
+                                                            Fusce condimentum
+                                                        </li>
+                                                        <li>
+                                                            Ut non libero
+                                                        </li>
+                                                        <li>
+                                                            Consecte adiping elit
+                                                        </li>
+                                                    </ul>
+                                                    <div class="pricing-footer">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna psum olor .
+                                                        </p>
+                                                        <a href="" class="btntheme">Start Free trail <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="pricing hover-effect">
+                                                    <div class="pricing-head">
+                                                        <h3>Hi-Tech <span>Officia deserunt mollitia </span></h3>
+                                                        <h4><i class="fa fa-inr"></i>15<i>000</i><span> Per Month </span>
+                                                        </h4>
+                                                    </div>
+                                                    <ul class="pricing-content list-unstyled">
+                                                        <li>
+                                                            At vero eos
+                                                        </li>
+                                                        <li>
+                                                            No Support
+                                                        </li>
+                                                        <li>
+                                                            Fusce condimentum
+                                                        </li>
+                                                        <li>
+                                                            Ut non libero
+                                                        </li>
+                                                        <li>
+                                                            Consecte adiping elit
+                                                        </li>
+                                                    </ul>
+                                                    <div class="pricing-footer">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna psum olor .
+                                                        </p>
+                                                        <a href="" class="btntheme">Start Free trail <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <p class="usdpricing">*Service tax applicable. International users, please &nbsp;&nbsp;<em><a href="" >Contact</a></em>&nbsp;&nbsp; for USD pricing. </p>
+                                            </div>
+                                            <!--//End Pricing -->
+                                        </div>
+                                        <div class="row">
+                                            <div class=" col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-2 hidden-xs" style="padding:0;">
+
+                                                        <img src="img/avtar.png" class="logintestiProfile two">
+                                                    </div>
+                                                    <div class="col-sm-10" style="padding:0;">
+                                                        <div class="testtextwrapper">
+                                                            <div class="logintestimonials">
+                                                                <p class="bigtesi">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+                                                                    <span>Mr. Pankaj (Owner, Trackance Solar)</span></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <ul class="list-icons listswithicon">
+                                                    <li><i class="icon-check pr-10"></i> Complete Financial Accounting</li>
+                                                    <li><i class="icon-check pr-10"></i> Unlimited Invoicing & Billing</li>
+                                                    <li><i class="icon-check pr-10"></i> Customer & Vendor Management</li>
+                                                    <li><i class="icon-check pr-10"></i> Multi-User With Role Based Access</li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <ul class="list-icons listswithicon">
+                                                    <li><i class="icon-check pr-10"></i> Payment Gateway Integration</li>
+                                                    <li><i class="icon-check pr-10"></i> Projects, Tasks & Timesheets</li>
+                                                    <li><i class="icon-check pr-10"></i> Ability To Invite An Auditor</li>
+                                                    <li><i class="icon-check pr-10"></i> 45+ Financial Reports</li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <ul class="list-icons listswithicon">
+                                                    <li><i class="icon-check pr-10"></i> Free Access To CA Network</li>
+                                                    <li><i class="icon-check pr-10"></i> Regular Free Updates</li>
+                                                    <li><i class="icon-check pr-10"></i> Secure 256-bit SSL Encryption</li>
+                                                    <li><i class="icon-check pr-10"></i> Free Instant In-App Support</li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="testiwrapper">
+
+                                            <div class="row">
+
+
+                                                <div class="col-sm-12">
+                                                    <div class="wrapperkeypoints">
+
+                                                        <div class="notice notice-info">
+                                                            <strong>1.</strong> Data ownership remains with the users and they can export data in excel format anytime.
+                                                            <br>
+                                                            <br>
+                                                            <strong>2.</strong> Discounts available for 2yr, 3yr and 5yr bulk payments. Special pricing for Startups and Non-Profits.
+                                                            <br>
+                                                            <br>
+                                                              <strong>3.</strong> 30 days money-back policy : If you are not satisfied with the product, we will refund your money after deducting administration charges.
+                                                            <br>
+                                                            <br>
+                                                              <strong>Yes..!!</strong> We also have an Enterprise Plan To know more, call us on +91 84 85 86 3000
+                                                        </div>
+
+                                                   
+
+                                                       
+                                                    </div>
+                                                 
+                                                </div>
+                                           
+
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                 
+                    <a href="#top" class="scrolltop"><i class="fa fa-angle-up"></i></a>
+            
+                       <footer>
+
+                        <div class="footer-bottom">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-9 text-left">
+                                        <p class="bottomcopyright"> © 2016-2017 Trackance <span class="hidden-xs">|</span><span class="callno"> Call Toll Free: 0.000.000.000</span></p>
+                                    </div>
+
+                                    <div class="col-sm-3">
+                                        <a target="_blank" class="sociallinks tw" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                                        <a target="_blank" class="sociallinks fb" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                                        <a target="_blank" class="sociallinks sk" href="http://www.skype.com"><i class="fa fa-skype"></i></a>
+                                        <a target="_blank" class="sociallinks gp" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a>
+                                        <a target="_blank" class="sociallinks yt" href="http://www.youtube.com"><i class="fa fa-youtube-play"></i></a>
+                                        <a target="_blank" class="sociallinks pn" href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+                    </section>
+            </div>
+            <!--page 2 div end-->
+
+
+
+        </div>
+  
+    
+        <!-- /pagewrap -->
+
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="jpr_responsivemenu/js/classie.js"></script>
+        <script src="js/pageloader_svgLoader.js"></script>
+        <script src="jpr_responsivemenu/js/gnmenu.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/SmoothScroll.js"></script>
+        <!--Svg Page Loader Js-->
+
+
+</body>
+
+</html>

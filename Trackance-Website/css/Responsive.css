@@ -1,8 +1,21 @@
 /*Custom Responsive css Edited by Anuj -8595232838*/
 @media(max-width:768px)
 {
+    body
+    {padding-top: 55px;}
     .callno
     {display: block;padding: 5px 0px;}
+    .orseperator
+    {display: block;margin:10px 0;}
+    .hidden-sm
+    {display: block !important;}
+    .logintestimonials {
+       background: rgba(255, 255, 255, 0.57);
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+    .logintestimonials:before, .logintestimonials:after
+    {content: none !important;}
     .gn-menu-main {
 display: block;
 }
