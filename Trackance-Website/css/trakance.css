@@ -540,12 +540,13 @@ a.gn-icon.gn-icon-menu.btntrigger {
     left: calc(50% - 40px);
 }
 
-.featuresection .subtitle {
+.featuresection .subtitle, .subtitle {
     font-size: 23px;
     margin-top: 9px;
     font-weight: 300;
 }
-
+.subtitle
+{line-height: 1.2em;    font-size: 32px;}
 .featureinner {
     background: #fff;
     display: table;
@@ -625,6 +626,8 @@ a.gn-icon.gn-icon-menu.btntrigger {
     font-weight: 300;
     font-family: sans-serif;
 }
+
+
 
 
 /*feature section end*/
@@ -881,6 +884,11 @@ a.gn-icon.gn-icon-menu.btntrigger {
     box-sizing: border-box;
     border: 2px dashed #02bad2;
 }
+.testimonialprofilepic.small {
+    width: 80px;
+    height: 80px;
+    border: 1px dashed #02bad2;
+}
 
 .testimonialprofilecontent {
     font-size: 17px;
@@ -1026,7 +1034,52 @@ a.scrolltop:focus {
     text-align: left;
     padding-left: 15px;
 }
-
+.mobileappsection.contacth h1
+{margin-bottom: 0;padding-left: 0;}
+.mobileappsection.contacth p
+{padding-left: 0;}
+.mobileappsection.contacth p a
+{font-size: 17px;
+    line-height: 1.5;
+    color: #02bad2;
+    padding: 5px 0;
+    text-align: left;
+    position: relative;
+    padding-left: 16px;
+    font-family: sans-serif;
+    font-weight: 300;
+    padding-left: 0;}
+.mobileappsection.contacth p a span
+{color: gray;
+    min-width: 58px;
+    display: inline-block;
+    text-align: left;
+    padding-right: 5px;
+    border-right: 1px solid #eee;}
+.mobileappsection.contacth p.address, .mobileappsection.contacth p.phone, .mobileappsection.contacth p.fax, .mobileappsection.contacth p.email
+{    padding-left: 38px;
+    position: relative;}
+.mobileappsection.contacth p.address:before, .mobileappsection.contacth p.phone:before, .mobileappsection.contacth p.fax:before, .mobileappsection.contacth p.email:before
+{    font-family: fontawesome;
+    color: #02bad2;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 29px;
+    text-align: center;
+    height: 30px;
+    background: #fafafa;
+    line-height: 29px;
+    border: 1px solid #eee;}
+.mobileappsection.contacth p.address:before
+{content: "\f041";}
+.mobileappsection.contacth p.phone:before
+{    content: "\f095";}
+.mobileappsection.contacth p.fax:before
+{content: "\f1ac";}
+.mobileappsection.contacth p.email:before
+{content: "\f003";}
 .mobileappsection p {
     font-size: 16px;
     line-height: 1.5;
@@ -1038,6 +1091,25 @@ a.scrolltop:focus {
     font-family: sans-serif;
     font-weight: 300;
 }
+.addressblock
+{}
+.addressblock h3
+{    font-weight: 400;
+    text-align: left;
+    
+    color: #02bad2;}
+.contacts a.sociallinks {
+  
+
+    border: 0;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+margin-top: 30px;
+}
+.addressblock p
+{text-align: left;
+    padding-left: 0;}
 
 .mobileappsection p a {}
 
@@ -1696,3 +1768,269 @@ border: 3px solid #02bad2;
 }
 .wrapperkeypoints
 {margin-top: 50px;}
+
+/*go paperless*/
+.bannerstatic
+{min-height: 500px;background-image: url(../img/gopaper.png);background-size: cover;}
+.bannerstatic.forContact
+{min-height: 500px;background-image: url(../img/contactusbanner.png);background-size: cover;}
+.bannerstatic h1
+{margin-top: 125px;
+    font-size: 3em;font-weight: 400;}
+.bannerstatic h1 em
+{        color: #2dc4da;
+    font-weight: 400;
+    font-style: normal;}
+.bannerstatic h1 span
+{          display: inline-block;
+    color: #80ce07;
+    font-size: 40px;
+    margin-top: 15px;
+    font-weight: 400;}
+.bannerstatic h1 span:first-letter
+{font-size: 1.5em;
+    color: #02bad2;}
+
+.bannerstatic.forContact h1
+{    color: #fff;}
+.bannerstatic.forContact h1 em{    color: #fff;}
+.bannerstatic.forContact h1 span{    color: #fff;}
+.bannerstatic.forContact h1 span:first-letter{color: #fff;font-size: inherit;}
+.bannerstatic.forContact .subtitle
+{    color: #eee;}
+.howsavepaper
+{margin-top: 45px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#02bad2+0,02bad2+50,ffffff+50,ffffff+100 */
+background: #02bad2; /* Old browsers */
+background: -moz-linear-gradient(top, #02bad2 0%, #02bad2 50%, #ffffff 50%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #02bad2 0%,#02bad2 50%,#ffffff 50%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #02bad2 0%,#02bad2 50%,#ffffff 50%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02bad2', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */}
+.howsavepaper img
+{border-radius: 32px 5px 0 0;}
+.featuresection  .howsavepaper p.subtitle
+{font-size: 17px;
+    color: #787878;
+    font-family: sans-serif;}
+.whyuss .media {
+    overflow: visible;
+}
+.whyuss .media-left {
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 10px;
+    overflow: visible;
+}
+.whyuss .media span {
+    background: #02bad2;
+    font-family: Roboto,sans-serif;
+    border-radius: 50%;
+    display: block;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    width: 50px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+}
+.whyuss .media span .fa {
+    line-height: 50px;
+    color: #fff;
+        font-size: 27px;
+}
+.whyuss .media span:after {
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #02bad2;
+    box-sizing: content-box;
+    content: "";
+    height: 100%;
+    left: -4px;
+    opacity: 0;
+    padding: 4px;
+    pointer-events: none;
+    position: absolute;
+    top: -4px;
+    transform: scale(0.8);
+    transition: transform 0.2s ease 0s, opacity 0.2s ease 0s;
+    width: 100%;
+}
+.whyuss .media:hover span:after {
+    opacity: 1;
+    transform: scale(1);
+}
+.whyuss .media-body {
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 10px;
+    overflow: visible;
+}
+.whyuss .media h5 {
+    color: #02bad2;
+    font-family: Roboto,sans-serif;
+font-weight: 300;
+    font-size: 21px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    line-height: 26px;
+    text-align: left;
+}
+.whyuss .media p {
+color: #7f7f7f;
+    font-family: Roboto,sans-serif;
+    margin: 0 0 11.5px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+    text-align: left;
+}
+.red{
+    color:red;
+    }
+.form-area
+{
+background-color: #FAFAFA;
+    padding: 10px 40px 20px;
+    margin: 50px 0px 20px;
+    border: 1px solid #eee;
+	}
+
+/*blog page*/
+.secondcontactsection {
+    min-height: 750px;
+    position: relative;
+    background: #fff;
+    padding: 30px 0 80px;
+}
+.posts {
+margin-bottom: 50px;
+    -webkit-border-radius: 0;
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+.imagewrapper {
+    background-size: cover;
+    min-height: 200px;
+    position: relative;
+}
+.blogHeader {
+    padding: 0 10px;
+}
+.secondcontactsection .BlogTitle {
+    margin: 15px 0 8px;
+    letter-spacing: 0;
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 300;
+    color: #232424;
+}
+.BlogDetails {
+    display: table;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.secondcontactsection .BlogDetails .linku {
+    background: #f4f4f4;
+    padding: 7px 15px 7px 10px;
+    margin: 0 10px 0 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #999999;
+    font-size: 14px;
+    display: inline-block;
+}
+.PostDescription {
+    margin: 5px 0 8px;
+}
+.secondcontactsection .PostDescription p {
+     color: #373838;
+    letter-spacing: 0;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    font-family: Roboto,sans-serif;
+    position: relative;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.55555556;
+}
+.postcategorylist {
+list-style: none;
+    border-left: 1px solid #eee;
+    display: table;
+    width: 100%;
+}
+.helpdocs .postcategorylist
+{
+        background: #fafafa;
+    background: -moz-linear-gradient(left, #fafafa 1%, #ffffff 37%, #ffffff 74%, #ffffff 100%);
+    background: -webkit-linear-gradient(left, #fafafa 1%,#ffffff 37%,#ffffff 74%,#ffffff 100%);
+    background: linear-gradient(to right, #fafafa 1%,#ffffff 37%,#ffffff 74%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#ffffff',GradientType=1 );
+    padding-left: 16px;
+    border-left: 0;
+}
+.postcategorylist li {
+    display: block;
+}
+.postcategorylist li a {
+ position: relative;
+    color: #333;
+    font-size: 15px;
+    font-family: sans-serif,Roboto;
+    padding: 9px 0;
+    display: block;
+    border-bottom: 1px solid #eee;
+    text-decoration: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    font-weight: 300;
+}
+.postcategorylist li a:hover {
+    color: #02bad2;
+}
+.postcategorylist li a:after {
+    content: "\f105";
+    font-family: fontawesome;
+    position: absolute;
+    right: 7px;
+    top: 27%;
+}
+.searchbox
+{    position: relative;
+    padding: 0 15px;margin-bottom: 20px;}
+.form-control
+{background-color: #fbfcfc;
+    border: 1px solid #eaeaea;}
+.searchbox a
+{    position: absolute;
+    right: 27px;
+    top: 6px;}
+h3.bloghelplink {
+    font-weight: 400;
+    color: #02bad2;
+}
+.termservice ul li
+{color: #787a7c;
+    letter-spacing: 0;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    font-family: sans-serif,roboto;
+    position: relative;
+    font-weight: 300;
+    margin-bottom: 10px;}
+.termservice p
+{}
+.termservice p a
+{font-weight: 300;
+    color: #02bad2;}
